@@ -6,9 +6,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
-/**
- * Created by sbt-saburov-ag1 on 21.03.2017.
- */
+
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "student-orders")
 public class StudentOrders

@@ -7,9 +7,7 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by antonsaburov on 27.02.17.
- */
+
 @XmlAccessorType(XmlAccessType.FIELD)
 public class StudentOrder implements Serializable
 {

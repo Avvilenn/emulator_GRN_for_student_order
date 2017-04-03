@@ -9,9 +9,7 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by antonsaburov on 06.03.17.
- */
+
 @XmlAccessorType(XmlAccessType.FIELD)
 public class PersonAdult extends Person implements Serializable
 {

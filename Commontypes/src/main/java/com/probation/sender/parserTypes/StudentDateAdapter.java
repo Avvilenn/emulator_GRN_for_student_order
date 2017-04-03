@@ -1,8 +1,6 @@
 package com.probation.sender.parserTypes;
 
-/**
- * Created by sbt-saburov-ag1 on 21.03.2017.
- */
+
 
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 import java.text.SimpleDateFormat;

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Business" />
+        <module name="Common-types" />
+        <module name="GRN-emulator-view" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Business" target="1.8" />
+      <module name="Common-types" target="1.8" />
+      <module name="GRN-emulator-view" target="1.8" />
+      <module name="SenderOne" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

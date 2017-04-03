@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.probation.sender.gui.MainForm">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="9" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="831" height="647"/>
+    </constraints>
+    <properties>
+      <background color="-200020"/>
+      <enabled value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="69351" class="javax.swing.JTextField" binding="literaOfBuilding">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="f"/>
+        </properties>
+      </component>
+      <component id="f4a94" class="javax.swing.JTextField" binding="givenName">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="String"/>
+        </properties>
+      </component>
+      <component id="24b49" class="javax.swing.JTextField" binding="street">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="String"/>
+        </properties>
+      </component>
+      <component id="5f974" class="javax.swing.JTextField" binding="oblast">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="String"/>
+        </properties>
+      </component>
+      <component id="24f6d" class="javax.swing.JTextField" binding="passportDateExpire">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="31/04/2020"/>
+        </properties>
+      </component>
+      <component id="1af05" class="javax.swing.JTextField" binding="passportNumber">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="String"/>
+        </properties>
+      </component>
+      <component id="939a6" class="javax.swing.JTextField" binding="dateOfBirth">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="12/02/1985"/>
+        </properties>
+      </component>
+      <component id="141cd" class="javax.swing.JTextField" binding="surName">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Constantia" size="24"/>
+          <text value="String"/>
+        </properties>
+      </component>
+      <component id="4136b" class="javax.swing.JTextField" binding="patronymic">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="String"/>
+        </properties>
+      </component>
+      <component id="28530" class="javax.swing.JTextField" binding="passportSeria">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="String"/>
+        </properties>
+      </component>
+      <component id="c1e18" class="javax.swing.JTextField" binding="passportDateIssue">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="31/04/2015"/>
+        </properties>
+      </component>
+      <component id="8645d" class="javax.swing.JTextField" binding="postalCode">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="String"/>
+        </properties>
+      </component>
+      <component id="3633c" class="javax.swing.JTextField" binding="city">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="String"/>
+        </properties>
+      </component>
+      <component id="e6dd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="surName"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="bf052" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="patronymic"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="2c87e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="given  Name"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="95adc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="passport  Seria"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="b4c5d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="passport  Date  Issue"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="d3b4b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="postal   Code"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="c7260" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="city"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="c85b9" class="javax.swing.JTextField" binding="numberOfBuilding">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="111"/>
+        </properties>
+      </component>
+      <component id="2dae0" class="javax.swing.JTextField" binding="numberOfApartament">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="222"/>
+        </properties>
+      </component>
+      <component id="115d3" class="javax.swing.JTextField" binding="literaOfApartament">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="230" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Constantia" size="24"/>
+          <text value="z"/>
+        </properties>
+      </component>
+      <component id="8e439" class="javax.swing.JButton" binding="saveInDataBase">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2308973"/>
+          <font name="Bebas Neue Regular" size="24" style="0"/>
+          <text value="Save in database"/>
+        </properties>
+      </component>
+      <component id="f140" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="number Of  Building"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="cb303" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="number Of  Apartament"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="bbe9d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="date  Of  Birth"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="81c21" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="passport  Number"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="5e5cd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="passport Date Expire"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="ffe18" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="oblast"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="c1403" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="street"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="86147" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="litera  Of  Building"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="4518f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="145" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bebas Neue Regular" size="18" style="0"/>
+          <text value="litera  Of  Apartament"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

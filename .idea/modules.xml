@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Business/Business.iml" filepath="$PROJECT_DIR$/Business/Business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Commontypes/Common-types.iml" filepath="$PROJECT_DIR$/Commontypes/Common-types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GRN.iml" filepath="$PROJECT_DIR$/GRN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GRNemulatorView/GRN-emulator-view.iml" filepath="$PROJECT_DIR$/GRNemulatorView/GRN-emulator-view.iml" />
+    </modules>
+  </component>
+</project>
